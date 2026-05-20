@@ -43,8 +43,9 @@
                         </goals>
                         <configuration>
                             <bnd><![CDATA[
-Import-Package: javax.annotation;version=0.0.0,*
-                                ]]></bnd>
+                            Import-Package: javax.annotation;version=0.0.0,*
+                            Sling-Model-Packages: com.project.core.models
+                            ]]></bnd>
                         </configuration>
                     </execution>
                 </executions>
